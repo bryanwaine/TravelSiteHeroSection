@@ -464,7 +464,7 @@ const TravelHeroSection: React.FC = () => {
         {/*  Mobile Carousel View*/}
         {isMobile ? (
           <div className="relative" {...swipeHandlers}>
-            <div className="overflow-hidden">
+            <div className="overflow-x-visible">
               <div
                 className="flex transition-transform duration-300 ease-out"
                 style={{
