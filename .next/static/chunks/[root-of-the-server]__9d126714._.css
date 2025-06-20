@@ -587,6 +587,10 @@
     margin-left: calc(var(--spacing) * 2);
   }
 
+  .block {
+    display: block;
+  }
+
   .flex {
     display: flex;
   }

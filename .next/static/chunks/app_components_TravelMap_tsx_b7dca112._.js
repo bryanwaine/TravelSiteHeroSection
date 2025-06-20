@@ -149,7 +149,7 @@ const TravelMap = ({ destinations, isMobile, setSelectedDestination, setMobileBo
                         mouseout: ()=>{
                             setHoveredDestination(null);
                             if (videoRefs.current[dest.id]) {
-                                videoRefs.current[dest.id].pause();
+                                // videoRefs.current[dest.id].pause();
                                 videoRefs.current[dest.id].currentTime = 0;
                             }
                         }
@@ -164,7 +164,7 @@ const TravelMap = ({ destinations, isMobile, setSelectedDestination, setMobileBo
                         ],
                         interactive: true,
                         opacity: 1,
-                        className: "!p-0 !bg-transparent !border-0 !shadow-none !z-[99999999]",
+                        className: `${hoveredDestination === dest.id && !isMobile ? "block" : "hidden"}!p-0 !bg-transparent !border-0 !shadow-none !z-[99999999]`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-30 md:w-64 bg-white rounded-2xl shadow-lg overflow-hidden animate-scale-in !z-[99999999]",
                             children: [
