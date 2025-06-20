@@ -450,6 +450,10 @@
     top: -20px;
   }
 
+  .-right-2 {
+    right: calc(var(--spacing) * -2);
+  }
+
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
@@ -488,6 +492,14 @@
 
   .bottom-8 {
     bottom: calc(var(--spacing) * 8);
+  }
+
+  .bottom-10 {
+    bottom: calc(var(--spacing) * 10);
+  }
+
+  .-left-2 {
+    left: calc(var(--spacing) * -2);
   }
 
   .left-0 {
@@ -652,6 +664,14 @@
 
   .h-64 {
     height: calc(var(--spacing) * 64);
+  }
+
+  .h-68 {
+    height: calc(var(--spacing) * 68);
+  }
+
+  .h-80 {
+    height: calc(var(--spacing) * 80);
   }
 
   .h-\[30\%\] {

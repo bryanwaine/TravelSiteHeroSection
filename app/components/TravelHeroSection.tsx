@@ -457,7 +457,7 @@ const TravelHeroSection: React.FC = () => {
       )}
       {/* Destination Cards Container */}
       <div
-        className={`absolute bottom-8 left-0 h-[40%] right-0 p-6 md:p-8 ${
+        className={`absolute bottom-10 left-0 h-[40%] right-0 p-6 md:p-8 ${
           isVisible ? "animate-slide-up" : "translate-y-full"
         }`}
       >
@@ -541,13 +541,13 @@ const TravelHeroSection: React.FC = () => {
             {/* Mobile Navigation */}
             <button
               onClick={prevDestination}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center"
+              className="absolute -left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center"
             >
               <ChevronLeft className="w-5 h-5 text-[#3D592F]" />
             </button>
             <button
               onClick={nextDestination}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center"
+              className="absolute -right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center"
             >
               <ChevronRight className="w-5 h-5 text-[#3D592F]" />
             </button>
@@ -622,7 +622,7 @@ const TravelHeroSection: React.FC = () => {
             >
               ×
             </button>
-            <div className="h-48 w-full relative">
+            <div className="h-80 w-full relative">
               <img
                 src={selectedDestination.image}
                 alt={selectedDestination.name}
