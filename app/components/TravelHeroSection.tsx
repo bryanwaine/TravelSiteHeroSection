@@ -473,11 +473,11 @@ const TravelHeroSection: React.FC = () => {
               >
                 {destinations.map((dest) => (
                   <div key={dest.id} className={`w-full h-full flex-shrink-0 px-4`}>
-                    <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden">
+                    <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-x-visible">
                       <img
                         src={dest.image}
                         alt={dest.name}
-                        className=" destination-image w-full h-full object-cover"
+                        className=" destination-image w-full h-full rounded-t-3xl object-cover"
                       />
                       <div className="destination-content p-6">
                         <div className="flex items-center justify-between mb-3">

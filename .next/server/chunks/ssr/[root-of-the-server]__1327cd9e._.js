@@ -602,12 +602,12 @@ const TravelHeroSection = ()=>{
                                 children: destinations.map((dest)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "jsx-d2d98d2f69fb3f63" + " " + `w-full h-full flex-shrink-0 px-4`,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-d2d98d2f69fb3f63" + " " + "bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-x-visible",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: dest.image,
                                                     alt: dest.name,
-                                                    className: "jsx-d2d98d2f69fb3f63" + " " + " destination-image w-full h-full object-cover"
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + " destination-image w-full h-full rounded-t-3xl object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
                                                     lineNumber: 477,
