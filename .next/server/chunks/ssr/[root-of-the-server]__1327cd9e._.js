@@ -135,7 +135,7 @@ const destinations = [
         highlights: [
             "Cherry Blossoms",
             "Tech Districts",
-            "Traditional Cuisine"
+            "Local Cuisine"
         ],
         temperature: 22
     }
@@ -218,7 +218,7 @@ const TravelHeroSection = ()=>{
                     className: "w-8 h-8"
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 193,
+                    lineNumber: 192,
                     columnNumber: 16
                 }, this);
             case "cloudy":
@@ -226,7 +226,7 @@ const TravelHeroSection = ()=>{
                     className: "w-8 h-8"
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 195,
+                    lineNumber: 194,
                     columnNumber: 16
                 }, this);
             case "rainy":
@@ -234,7 +234,7 @@ const TravelHeroSection = ()=>{
                     className: "w-8 h-8"
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 197,
+                    lineNumber: 196,
                     columnNumber: 16
                 }, this);
             case "windy":
@@ -242,7 +242,7 @@ const TravelHeroSection = ()=>{
                     className: "w-8 h-8"
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 199,
+                    lineNumber: 198,
                     columnNumber: 16
                 }, this);
         }
@@ -343,20 +343,20 @@ const TravelHeroSection = ()=>{
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: heroRef,
-        className: "jsx-ba0332bafa827537" + " " + "relative min-h-screen w-full overflow-hidden aspect-[2/1]",
+        className: "jsx-d2d98d2f69fb3f63" + " " + "relative min-h-screen w-full overflow-hidden aspect-[2/1]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + `absolute inset-0 bg-gradient-to-br ${getWeatherBackground()} transition-all duration-3000`,
+                className: "jsx-d2d98d2f69fb3f63" + " " + `absolute inset-0 bg-gradient-to-br ${getWeatherBackground()} transition-all duration-3000`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 bg-black/20"
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 bg-black/20"
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 333,
+                        lineNumber: 332,
                         columnNumber: 9
                     }, this),
                     weather === "rainy" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 opacity-30",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 opacity-30",
                         children: [
                             ...Array(50)
                         ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -365,19 +365,19 @@ const TravelHeroSection = ()=>{
                                     animationDelay: `${Math.random() * 2}s`,
                                     animationDuration: `${0.5 + Math.random() * 0.5}s`
                                 },
-                                className: "jsx-ba0332bafa827537" + " " + "absolute h-10 w-0.5 bg-blue-200 animate-rain !z-999999"
+                                className: "jsx-d2d98d2f69fb3f63" + " " + "absolute h-10 w-0.5 bg-blue-200 animate-rain !z-999999"
                             }, i, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 337,
+                                lineNumber: 336,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 335,
+                        lineNumber: 334,
                         columnNumber: 11
                     }, this),
                     weather === "windy" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 overflow-hidden opacity-30",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 overflow-hidden opacity-30",
                         children: [
                             ...Array(60)
                         ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -387,19 +387,19 @@ const TravelHeroSection = ()=>{
                                     animationDelay: `${Math.random() * 4}s`,
                                     animationDuration: `${2 + Math.random() * 3}s`
                                 },
-                                className: "jsx-ba0332bafa827537" + " " + "absolute w-100 h-0.5 bg-white/10 animate-wind !z-999999"
+                                className: "jsx-d2d98d2f69fb3f63" + " " + "absolute w-100 h-0.5 bg-white/10 animate-wind !z-999999"
                             }, i, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 352,
+                                lineNumber: 351,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 350,
+                        lineNumber: 349,
                         columnNumber: 11
                     }, this),
                     weather === "cloudy" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 overflow-hidden opacity-50",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 overflow-hidden opacity-50",
                         children: [
                             ...Array(8)
                         ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -411,152 +411,152 @@ const TravelHeroSection = ()=>{
                                     animationDelay: `${Math.random() * 6}s`,
                                     animationDuration: `${20 + Math.random() * 10}s`
                                 },
-                                className: "jsx-ba0332bafa827537" + " " + "absolute bg-white/50 rounded-full blur-lg animate-cloud !z-999999"
+                                className: "jsx-d2d98d2f69fb3f63" + " " + "absolute bg-white/50 rounded-full blur-lg animate-cloud !z-999999"
                             }, i, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 368,
+                                lineNumber: 367,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 366,
+                        lineNumber: 365,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 330,
+                lineNumber: 329,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 opacity-20 z-0",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 opacity-20 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "relative w-full h-full",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "relative w-full h-full",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                             src: "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                             alt: "Hot Air Baloons in the sky",
-                            className: "jsx-ba0332bafa827537" + " " + " map-bg w-full h-full object-cover "
+                            className: "jsx-d2d98d2f69fb3f63" + " " + " map-bg w-full h-full object-cover "
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 387,
+                            lineNumber: 386,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 386,
+                        lineNumber: 385,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                         viewBox: "0 0 100 100",
                         preserveAspectRatio: "none",
-                        className: "jsx-ba0332bafa827537" + " " + "w-full h-full",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "w-full h-full",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("pattern", {
                             id: "grid",
                             width: "10",
                             height: "10",
                             patternUnits: "userSpaceOnUse",
-                            className: "jsx-ba0332bafa827537",
+                            className: "jsx-d2d98d2f69fb3f63",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                 d: "M 10 0 L 0 0 0 10",
                                 fill: "none",
                                 stroke: "white",
                                 strokeWidth: "0.5",
-                                className: "jsx-ba0332bafa827537"
+                                className: "jsx-d2d98d2f69fb3f63"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 404,
+                                lineNumber: 403,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 398,
+                            lineNumber: 397,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 393,
+                        lineNumber: 392,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 385,
+                lineNumber: 384,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + "absolute top-2 md:top-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-2 md:p-4 shadow-[0_8px_32px_rgba(0,0,0,0.12),0_2px_8px_rgba(0,0,0,0.04)] z-20",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "absolute top-2 md:top-6 right-6 bg-white/90 backdrop-blur-md rounded-2xl p-2 md:p-4 shadow-[0_8px_32px_rgba(0,0,0,0.12),0_2px_8px_rgba(0,0,0,0.04)] z-20",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-ba0332bafa827537" + " " + "flex items-center gap-3 text-[#3D592F]",
+                    className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center gap-3 text-[#3D592F]",
                     children: [
                         getWeatherIcon(),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537",
+                            className: "jsx-d2d98d2f69fb3f63",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-ba0332bafa827537" + " " + "text-xs font-medium opacity-70",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-xs font-medium opacity-70",
                                     children: "Current Weather"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 418,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-ba0332bafa827537" + " " + "text-sm md:text-lg font-bold capitalize",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm md:text-lg font-bold capitalize",
                                     children: weather
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 419,
+                                    lineNumber: 418,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 417,
+                            lineNumber: 416,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 415,
+                    lineNumber: 414,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 414,
+                lineNumber: 413,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "jsx-ba0332bafa827537" + " " + "relative z-20 mt-14 md:mt-0 p-6 md:p-8",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "relative z-20 mt-14 md:mt-0 p-6 md:p-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "jsx-ba0332bafa827537" + " " + `text-4xl w-full lg:text-5xl font-bold text-white mb-2 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`,
+                        className: "jsx-d2d98d2f69fb3f63" + " " + `text-4xl w-full lg:text-5xl font-bold text-white mb-2 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`,
                         children: "Discover Your Next Adventure"
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 425,
+                        lineNumber: 424,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "jsx-ba0332bafa827537" + " " + `text-md md:text-xl text-white ${isVisible ? "animate-fade-in-up animation-delay-200" : "opacity-0"}`,
+                        className: "jsx-d2d98d2f69fb3f63" + " " + `text-md md:text-xl text-white ${isVisible ? "animate-fade-in-up animation-delay-200" : "opacity-0"}`,
                         children: "Explore handpicked destinations around the world"
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                        lineNumber: 432,
+                        lineNumber: 431,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 424,
+                lineNumber: 423,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + "map-container relative w-full h-[40%] lg:h-[45%] rounded-3xl flex justify-center items-center px-8 pb-4 mb-4 z-20 animate-fade-in-up",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "map-container relative w-full h-[30%] lg:h-[45%] rounded-3xl flex justify-center items-center px-8 pb-4 z-20 animate-fade-in-up",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-ba0332bafa827537" + " " + "interactive-map relative w-full h-full lg:shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04 rounded-3xl bg-white/90 bg-transparent",
+                    className: "jsx-d2d98d2f69fb3f63" + " " + "interactive-map relative w-full h-full lg:shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04 rounded-3xl bg-white/90 bg-transparent",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-ba0332bafa827537" + " " + "w-full h-full !overflow-visible rounded-3xl shadow-md",
+                        className: "jsx-d2d98d2f69fb3f63" + " " + "w-full h-full !overflow-visible rounded-3xl shadow-md",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TravelMap, {
                             destinations: destinations,
                             isMobile: isMobile,
@@ -569,166 +569,166 @@ const TravelHeroSection = ()=>{
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
                             lineNumber: 444,
-                            columnNumber: 13
+                            columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/TravelHeroSection.tsx",
                         lineNumber: 443,
-                        columnNumber: 11
+                        columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
                     lineNumber: 442,
-                    columnNumber: 9
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
                 lineNumber: 441,
-                columnNumber: 7
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + `absolute bottom-0 left-0 right-0 p-6 md:p-8 ${isVisible ? "animate-slide-up" : "translate-y-full"}`,
+                className: "jsx-d2d98d2f69fb3f63" + " " + `absolute bottom-0 left-0 h-[40%] right-0 p-6 md:p-8 ${isVisible ? "animate-slide-up" : "translate-y-full"}`,
                 children: isMobile ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     ...swipeHandlers,
-                    className: "jsx-ba0332bafa827537" + " " + (swipeHandlers && swipeHandlers.className != null && swipeHandlers.className || "relative"),
+                    className: "jsx-d2d98d2f69fb3f63" + " " + (swipeHandlers && swipeHandlers.className != null && swipeHandlers.className || "relative"),
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "overflow-hidden",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "overflow-hidden",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     transform: `translateX(-${currentMobileIndex * 100}%)`
                                 },
-                                className: "jsx-ba0332bafa827537" + " " + "flex transition-transform duration-300 ease-out",
+                                className: "jsx-d2d98d2f69fb3f63" + " " + "flex transition-transform duration-300 ease-out",
                                 children: destinations.map((dest)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-ba0332bafa827537" + " " + `w-full flex-shrink-0 px-4`,
+                                        className: "jsx-d2d98d2f69fb3f63" + " " + `w-full h-full flex-shrink-0 px-4`,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: dest.image,
                                                     alt: dest.name,
-                                                    className: "jsx-ba0332bafa827537" + " " + " destination-image w-full h-40 object-cover"
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + " destination-image w-full h-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 476,
+                                                    lineNumber: 477,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "destination-content p-6",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "destination-content p-6",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "flex items-center justify-between mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center justify-between mb-3",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-ba0332bafa827537",
+                                                                    className: "jsx-d2d98d2f69fb3f63",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                            className: "jsx-ba0332bafa827537" + " " + "destination-title text-2xl font-bold text-[#3D592F]",
+                                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "destination-title text-2xl font-bold text-[#3D592F]",
                                                                             children: dest.name
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 484,
+                                                                            lineNumber: 485,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                            className: "jsx-ba0332bafa827537" + " " + "destination-location text-[#658C3E]",
+                                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "destination-location text-[#658C3E]",
                                                                             children: dest.country
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 487,
+                                                                            lineNumber: 488,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                    lineNumber: 483,
+                                                                    lineNumber: 484,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-ba0332bafa827537" + " " + "flex items-center gap-2 text-[#5EA4BF]",
+                                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center gap-2 text-[#5EA4BF]",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$thermometer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Thermometer$3e$__["Thermometer"], {
                                                                             className: "w-4 h-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 492,
+                                                                            lineNumber: 493,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "jsx-ba0332bafa827537" + " " + "font-medium",
+                                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "font-medium",
                                                                             children: [
                                                                                 dest.temperature,
                                                                                 "°C"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 493,
+                                                                            lineNumber: 494,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                    lineNumber: 491,
+                                                                    lineNumber: 492,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 482,
+                                                            lineNumber: 483,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "destination-description text-gray-600 mb-4",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "destination-description text-gray-600 mb-4",
                                                             children: dest.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 498,
+                                                            lineNumber: 499,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "flex flex-wrap gap-2 mb-4",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex flex-wrap gap-2 mb-4",
                                                             children: dest.highlights.map((highlight, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-ba0332bafa827537" + " " + "destination-highlight px-3 py-1 bg-[#6FA638]/10 text-[#658C3E] rounded-full text-sm",
+                                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "destination-highlight px-3 py-1 bg-[#6FA638]/10 text-[#658C3E] rounded-full text-sm",
                                                                     children: highlight
                                                                 }, i, false, {
                                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                    lineNumber: 503,
+                                                                    lineNumber: 504,
                                                                     columnNumber: 29
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 501,
+                                                            lineNumber: 502,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "flex items-center justify-between",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center justify-between",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "jsx-ba0332bafa827537",
+                                                                    className: "jsx-d2d98d2f69fb3f63",
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "jsx-ba0332bafa827537" + " " + "text-2xl font-bold text-[#5EA4BF]",
+                                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-2xl font-bold text-[#5EA4BF]",
                                                                             children: [
                                                                                 "$",
                                                                                 dest.price
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 513,
+                                                                            lineNumber: 514,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-500 text-xs ml-2",
+                                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-500 text-xs ml-2",
                                                                             children: dest.duration
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                            lineNumber: 516,
+                                                                            lineNumber: 517,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                    lineNumber: 512,
+                                                                    lineNumber: 513,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -740,317 +740,317 @@ const TravelHeroSection = ()=>{
                                                                         setDisplayPaymentForm(false);
                                                                         setDisplaySuccessMessage(false);
                                                                     },
-                                                                    className: "jsx-ba0332bafa827537" + " " + "px-6 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-medium hover:shadow-lg transition-all duration-300",
+                                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "px-6 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-medium hover:shadow-lg transition-all duration-300",
                                                                     children: "Book Now"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                                    lineNumber: 520,
+                                                                    lineNumber: 521,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 511,
+                                                            lineNumber: 512,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 481,
+                                                    lineNumber: 482,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 475,
+                                            lineNumber: 476,
                                             columnNumber: 21
                                         }, this)
                                     }, dest.id, false, {
                                         fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                        lineNumber: 474,
+                                        lineNumber: 475,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 467,
+                                lineNumber: 468,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 466,
+                            lineNumber: 467,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: prevDestination,
-                            className: "jsx-ba0332bafa827537" + " " + "absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
                                 className: "w-5 h-5 text-[#3D592F]"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 545,
+                                lineNumber: 546,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 541,
+                            lineNumber: 542,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: nextDestination,
-                            className: "jsx-ba0332bafa827537" + " " + "absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/70 rounded-full shadow-lg flex items-center justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                 className: "w-5 h-5 text-[#3D592F]"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 551,
+                                lineNumber: 552,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 547,
+                            lineNumber: 548,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "flex justify-center gap-2 mt-2",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex justify-center gap-2 mt-2",
                             children: destinations.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: ()=>setCurrentMobileIndex(index),
-                                    className: "jsx-ba0332bafa827537" + " " + `w-2 h-2 rounded-full transition-all duration-300 ${index === currentMobileIndex ? "w-8 bg-[#5EA4BF]" : "bg-white/50"}`
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + `w-2 h-2 rounded-full transition-all duration-300 ${index === currentMobileIndex ? "w-8 bg-[#5EA4BF]" : "bg-white/50"}`
                                 }, index, false, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 556,
+                                    lineNumber: 557,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 554,
+                            lineNumber: 555,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 465,
+                    lineNumber: 466,
                     columnNumber: 11
                 }, this) : // Desktop Grid View
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-ba0332bafa827537" + " " + "grid grid-cols-4 gap-6",
+                    className: "jsx-d2d98d2f69fb3f63" + " " + "grid grid-cols-4 gap-6",
                     children: destinations.map((dest, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
                                 animationDelay: `${index * 100}ms`
                             },
                             onClick: ()=>setSelectedDestination(dest),
-                            className: "jsx-ba0332bafa827537" + " " + `bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-[0_20px_60px_rgba(0,0,0,0.15),0_8px_24px_rgba(0,0,0,0.08)] cursor-pointer ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
+                            className: "jsx-d2d98d2f69fb3f63" + " " + `bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-[0_20px_60px_rgba(0,0,0,0.15),0_8px_24px_rgba(0,0,0,0.08)] cursor-pointer ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "relative h-40 overflow-hidden",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "relative h-40 overflow-hidden",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: dest.image,
                                             alt: dest.name,
-                                            className: "jsx-ba0332bafa827537" + " " + "w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "w-full h-full object-cover transition-transform duration-700 hover:scale-110"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 583,
+                                            lineNumber: 584,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 588,
+                                            lineNumber: 589,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "absolute bottom-3 right-3 flex items-center gap-2 text-white",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "absolute bottom-3 right-3 flex items-center gap-2 text-white",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$thermometer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Thermometer$3e$__["Thermometer"], {
                                                     className: "w-4 h-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 590,
+                                                    lineNumber: 591,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "font-medium text-sm",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "font-medium text-sm",
                                                     children: [
                                                         dest.temperature,
                                                         "°C"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 591,
+                                                    lineNumber: 592,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 589,
+                                            lineNumber: 590,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 582,
+                                    lineNumber: 583,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "p-5",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "p-5",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-xl font-bold text-[#3D592F] mb-1",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-bold text-[#3D592F] mb-1",
                                             children: dest.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 597,
+                                            lineNumber: 598,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-[#658C3E] text-sm mb-3",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#658C3E] text-sm mb-3",
                                             children: dest.country
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 600,
+                                            lineNumber: 601,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex items-center justify-between",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center justify-between",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-2xl font-bold text-[#5EA4BF]",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-2xl font-bold text-[#5EA4BF]",
                                                     children: [
                                                         "$",
                                                         dest.price
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 602,
+                                                    lineNumber: 603,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-sm text-gray-500",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-gray-500",
                                                     children: dest.duration
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 605,
+                                                    lineNumber: 606,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 601,
+                                            lineNumber: 602,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 596,
+                                    lineNumber: 597,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, dest.id, true, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 572,
+                            lineNumber: 573,
                             columnNumber: 15
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 570,
+                    lineNumber: 571,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 458,
+                lineNumber: 459,
                 columnNumber: 7
             }, this),
             mobileBookingVisible && isMobile && selectedDestination && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ba0332bafa827537" + " " + "fixed inset-0 bg-black/60 z-999 flex flex-col animate-modal-in overflow-y-auto",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "fixed inset-0 bg-black/60 z-999 flex flex-col animate-modal-in overflow-y-auto",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-ba0332bafa827537" + " " + "relative bg-white rounded-t-3xl flex flex-col flex-1",
+                    className: "jsx-d2d98d2f69fb3f63" + " " + "relative bg-white rounded-t-3xl flex flex-col flex-1",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setMobileBookingVisible(false),
-                            className: "jsx-ba0332bafa827537" + " " + "absolute top-4 right-4 z-10 w-10 h-10 bg-white text-[#3D592F] rounded-full shadow-md flex items-center justify-center",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "absolute top-4 right-4 z-10 w-10 h-10 bg-white text-[#3D592F] rounded-full shadow-md flex items-center justify-center",
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 618,
+                            lineNumber: 619,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "h-48 w-full relative",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "h-48 w-full relative",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: selectedDestination.image,
                                 alt: selectedDestination.name,
-                                className: "jsx-ba0332bafa827537" + " " + "w-full h-full object-cover md:rounded-t-3xl"
+                                className: "jsx-d2d98d2f69fb3f63" + " " + "w-full h-full object-cover md:rounded-t-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                lineNumber: 625,
+                                lineNumber: 626,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 624,
+                            lineNumber: 625,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "p-6 space-y-6",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "p-6 space-y-6",
                             children: [
                                 displayBookingSummary && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "animate-fade-in-up",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "animate-fade-in-up",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-2xl font-bold text-[#3D592F] mb-1",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-2xl font-bold text-[#3D592F] mb-1",
                                             children: selectedDestination.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 635,
+                                            lineNumber: 636,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-[#658C3E] mb-2",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#658C3E] mb-2",
                                             children: selectedDestination.country
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 638,
+                                            lineNumber: 639,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600 mb-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600 mb-4",
                                             children: selectedDestination.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 641,
+                                            lineNumber: 642,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "mb-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "mb-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-lg font-semibold text-[#3D592F] mb-2",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-lg font-semibold text-[#3D592F] mb-2",
                                                     children: "Highlights"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 645,
+                                                    lineNumber: 646,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "flex flex-wrap gap-2",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "flex flex-wrap gap-2",
                                                     children: selectedDestination.highlights.map((h, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "px-3 py-1 bg-[#6FA638]/10 text-[#658C3E] rounded-full text-sm",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "px-3 py-1 bg-[#6FA638]/10 text-[#658C3E] rounded-full text-sm",
                                                             children: h
                                                         }, i, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 650,
+                                                            lineNumber: 651,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 648,
+                                                    lineNumber: 649,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 644,
+                                            lineNumber: 645,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1058,17 +1058,17 @@ const TravelHeroSection = ()=>{
                                                 setDisplayBookingSummary(false);
                                                 setDisplayBookingForm(true);
                                             },
-                                            className: "jsx-ba0332bafa827537" + " " + "w-full mt-6 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-medium text-lg",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "w-full mt-6 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-medium text-lg",
                                             children: "Book This Experience"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 659,
+                                            lineNumber: 660,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 634,
+                                    lineNumber: 635,
                                     columnNumber: 17
                                 }, this),
                                 displayBookingForm && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1079,26 +1079,26 @@ const TravelHeroSection = ()=>{
                                             setDisplayPaymentForm(true);
                                         }
                                     },
-                                    className: "jsx-ba0332bafa827537" + " " + "animate-fade-in-up space-y-6",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "animate-fade-in-up space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-xl font-semibold text-[#3D592F]",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-semibold text-[#3D592F]",
                                             children: "Your Details"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 682,
+                                            lineNumber: 683,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537",
+                                            className: "jsx-d2d98d2f69fb3f63",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     htmlFor: "fullName",
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                     children: "Full Name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 686,
+                                                    lineNumber: 687,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1107,36 +1107,36 @@ const TravelHeroSection = ()=>{
                                                     value: bookingFormData.fullName,
                                                     onChange: handleBookingInputChange,
                                                     placeholder: "Full Name",
-                                                    className: "jsx-ba0332bafa827537" + " " + `w-full px-4 py-2 rounded border text-[#3D592F] ${formErrors.fullName ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + `w-full px-4 py-2 rounded border text-[#3D592F] ${formErrors.fullName ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 689,
+                                                    lineNumber: 690,
                                                     columnNumber: 21
                                                 }, this),
                                                 formErrors.fullName && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500",
                                                     children: formErrors.fullName
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 702,
+                                                    lineNumber: 703,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 685,
+                                            lineNumber: 686,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537",
+                                            className: "jsx-d2d98d2f69fb3f63",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     htmlFor: "email",
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                     children: "Email Address"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 708,
+                                                    lineNumber: 709,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1145,28 +1145,28 @@ const TravelHeroSection = ()=>{
                                                     value: bookingFormData.email,
                                                     onChange: handleBookingInputChange,
                                                     placeholder: "Email Address",
-                                                    className: "jsx-ba0332bafa827537" + " " + `w-full px-4 py-2 rounded border text-[#3D592F] ${formErrors.email ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + `w-full px-4 py-2 rounded border text-[#3D592F] ${formErrors.email ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 711,
+                                                    lineNumber: 712,
                                                     columnNumber: 21
                                                 }, this),
                                                 formErrors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500",
                                                     children: formErrors.email
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 724,
+                                                    lineNumber: 725,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 707,
+                                            lineNumber: 708,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex gap-3 mt-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex gap-3 mt-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "button",
@@ -1174,32 +1174,32 @@ const TravelHeroSection = ()=>{
                                                         setDisplayBookingSummary(true);
                                                         setDisplayBookingForm(false);
                                                     },
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Back"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 728,
+                                                    lineNumber: 729,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Continue"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 738,
+                                                    lineNumber: 739,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 727,
+                                            lineNumber: 728,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 672,
+                                    lineNumber: 673,
                                     columnNumber: 17
                                 }, this),
                                 displayPaymentForm && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1214,28 +1214,28 @@ const TravelHeroSection = ()=>{
                                             }, 2000);
                                         }
                                     },
-                                    className: "jsx-ba0332bafa827537" + " " + "animate-fade-in-up space-y-4",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "animate-fade-in-up space-y-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-xl font-semibold text-[#3D592F]",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-semibold text-[#3D592F]",
                                             children: "Payment"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 763,
+                                            lineNumber: 764,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex flex-col gap-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex flex-col gap-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + " ",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + " ",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Card Number"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 768,
+                                                            lineNumber: 769,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1245,35 +1245,35 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cardNumber,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "1234 5678 9012 3456",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardNumber ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardNumber ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 769,
+                                                            lineNumber: 770,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cardNumber && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cardNumber
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 783,
+                                                            lineNumber: 784,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 767,
+                                                    lineNumber: 768,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Card Holder"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 789,
+                                                            lineNumber: 790,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1282,44 +1282,44 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cardHolder,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "Full Name",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardHolder ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardHolder ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 790,
+                                                            lineNumber: 791,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cardHolder && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cardHolder
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 803,
+                                                            lineNumber: 804,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 788,
+                                                    lineNumber: 789,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 766,
+                                            lineNumber: 767,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex flex-col gap-3",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex flex-col gap-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Expiry (MM/YY)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 811,
+                                                            lineNumber: 812,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1329,35 +1329,35 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.expiry,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "MM/YY",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.expiry ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.expiry ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 812,
+                                                            lineNumber: 813,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.expiry && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.expiry
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 826,
+                                                            lineNumber: 827,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 810,
+                                                    lineNumber: 811,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + " ",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + " ",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "CVV"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 832,
+                                                            lineNumber: 833,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1367,102 +1367,102 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cvv,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "123",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cvv ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cvv ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 833,
+                                                            lineNumber: 834,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cvv && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cvv
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 847,
+                                                            lineNumber: 848,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 831,
+                                                    lineNumber: 832,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 809,
+                                            lineNumber: 810,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex justify-between gap-3 mt-6",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex justify-between gap-3 mt-6",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>{
                                                         setDisplayBookingForm(true);
                                                         setDisplayPaymentForm(false);
                                                     },
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl  transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl  transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Back"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 854,
+                                                    lineNumber: 855,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
                                                     disabled: loading,
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50",
                                                     children: loading ? "Processing..." : `Pay $${selectedDestination.price}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 863,
+                                                    lineNumber: 864,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 853,
+                                            lineNumber: 854,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 749,
+                                    lineNumber: 750,
                                     columnNumber: 17
                                 }, this),
                                 displaySuccessMessage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "text-center animate-fade-in-up mt-8",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-center animate-fade-in-up mt-8",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-8xl text-green-600 mb-4 animate-bounce",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-8xl text-green-600 mb-4 animate-bounce",
                                             children: "✓"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 878,
+                                            lineNumber: 879,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-2xl font-bold text-[#3D592F] mb-2",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-2xl font-bold text-[#3D592F] mb-2",
                                             children: "Booking Confirmed!"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 881,
+                                            lineNumber: 882,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600",
                                             children: "We've sent a confirmation to your email with details about your booking."
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 884,
+                                            lineNumber: 885,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600",
                                             children: "Enjoy your trip!"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 888,
+                                            lineNumber: 889,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1484,53 +1484,53 @@ const TravelHeroSection = ()=>{
                                                 });
                                                 setFormErrors({});
                                             },
-                                            className: "jsx-ba0332bafa827537" + " " + "mt-6 px-6 py-2 bg-[#6FA638] text-white rounded-lg",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "mt-6 px-6 py-2 bg-[#6FA638] text-white rounded-lg",
                                             children: "Close"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 889,
+                                            lineNumber: 890,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 877,
+                                    lineNumber: 878,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 632,
+                            lineNumber: 633,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 617,
+                    lineNumber: 618,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 616,
+                lineNumber: 617,
                 columnNumber: 9
             }, this),
             selectedDestination && !isMobile && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: ()=>setSelectedDestination(null),
-                className: "jsx-ba0332bafa827537" + " " + "fixed inset-0 bg-black/60 backdrop-blur-sm z-999 flex items-center justify-center p-8",
+                className: "jsx-d2d98d2f69fb3f63" + " " + "fixed inset-0 bg-black/60 backdrop-blur-sm z-999 flex items-center justify-center p-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     onClick: (e)=>e.stopPropagation(),
-                    className: "jsx-ba0332bafa827537" + " " + "bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-auto shadow-[0_24px_80px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.1)] animate-modal-in",
+                    className: "jsx-d2d98d2f69fb3f63" + " " + "bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-auto shadow-[0_24px_80px_rgba(0,0,0,0.2),0_8px_32px_rgba(0,0,0,0.1)] animate-modal-in",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "relative h-64 md:h-80",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "relative h-64 md:h-80",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: selectedDestination.image,
                                     alt: selectedDestination.name,
-                                    className: "jsx-ba0332bafa827537" + " " + "w-full h-full object-cover"
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-full h-full object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 929,
+                                    lineNumber: 930,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1552,125 +1552,125 @@ const TravelHeroSection = ()=>{
                                         });
                                         setFormErrors({});
                                     },
-                                    className: "jsx-ba0332bafa827537" + " " + "absolute top-4 right-4 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors text-xl text-[#3D592F] cursor-pointer shadow-md ",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "absolute top-4 right-4 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors text-xl text-[#3D592F] cursor-pointer shadow-md ",
                                     children: "×"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 934,
+                                    lineNumber: 935,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 928,
+                            lineNumber: 929,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-ba0332bafa827537" + " " + "p-8",
+                            className: "jsx-d2d98d2f69fb3f63" + " " + "p-8",
                             children: [
                                 displayBookingSummary && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "animate-fade-in-up",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "animate-fade-in-up",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex items-center justify-between mb-6 ",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex items-center justify-between mb-6 ",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537",
+                                                    className: "jsx-d2d98d2f69fb3f63",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-4xl font-bold text-[#3D592F] mb-2",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-4xl font-bold text-[#3D592F] mb-2",
                                                             children: selectedDestination.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 963,
+                                                            lineNumber: 964,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-xl text-[#658C3E]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl text-[#658C3E]",
                                                             children: selectedDestination.country
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 966,
+                                                            lineNumber: 967,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 962,
+                                                    lineNumber: 963,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-right",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-right",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-4xl font-bold text-[#5EA4BF]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-4xl font-bold text-[#5EA4BF]",
                                                             children: [
                                                                 "$",
                                                                 selectedDestination.price
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 971,
+                                                            lineNumber: 972,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-500",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-500",
                                                             children: selectedDestination.duration
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 974,
+                                                            lineNumber: 975,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 970,
+                                                    lineNumber: 971,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 961,
+                                            lineNumber: 962,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600 text-lg mb-6",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600 text-lg mb-6",
                                             children: selectedDestination.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 979,
+                                            lineNumber: 980,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "mb-8",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "mb-8",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
                                                     children: "Highlights"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 983,
+                                                    lineNumber: 984,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "flex flex-wrap gap-3",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "flex flex-wrap gap-3",
                                                     children: selectedDestination.highlights.map((highlight, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "px-4 py-2 bg-[#6FA638]/10 text-[#658C3E] rounded-full",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "px-4 py-2 bg-[#6FA638]/10 text-[#658C3E] rounded-full",
                                                             children: highlight
                                                         }, i, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 988,
+                                                            lineNumber: 989,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 986,
+                                                    lineNumber: 987,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 982,
+                                            lineNumber: 983,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1678,17 +1678,17 @@ const TravelHeroSection = ()=>{
                                                 setDisplayBookingSummary(false);
                                                 setDisplayBookingForm(true);
                                             },
-                                            className: "jsx-ba0332bafa827537" + " " + "w-full py-4 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "w-full py-4 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                             children: "Book This Experience"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 997,
+                                            lineNumber: 998,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 960,
+                                    lineNumber: 961,
                                     columnNumber: 17
                                 }, this),
                                 displayBookingForm && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1699,26 +1699,26 @@ const TravelHeroSection = ()=>{
                                             setDisplayPaymentForm(true);
                                         }
                                     },
-                                    className: "jsx-ba0332bafa827537" + " " + "w-full shrink-0 px-4 animate-fade-in-up space-y-6",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-full shrink-0 px-4 animate-fade-in-up space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
                                             children: "Your Details"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1020,
+                                            lineNumber: 1021,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537",
+                                            className: "jsx-d2d98d2f69fb3f63",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     htmlFor: "fullName",
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                     children: "Full Name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1024,
+                                                    lineNumber: 1025,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1728,36 +1728,36 @@ const TravelHeroSection = ()=>{
                                                     value: bookingFormData.fullName,
                                                     onChange: handleBookingInputChange,
                                                     placeholder: "Full Name",
-                                                    className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${formErrors.fullName ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${formErrors.fullName ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1027,
+                                                    lineNumber: 1028,
                                                     columnNumber: 21
                                                 }, this),
                                                 formErrors.fullName && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-4",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-4",
                                                     children: formErrors.fullName
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1041,
+                                                    lineNumber: 1042,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1023,
+                                            lineNumber: 1024,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537",
+                                            className: "jsx-d2d98d2f69fb3f63",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     htmlFor: "email",
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                     children: "Email Address"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1047,
+                                                    lineNumber: 1048,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1767,28 +1767,28 @@ const TravelHeroSection = ()=>{
                                                     value: bookingFormData.email,
                                                     onChange: handleBookingInputChange,
                                                     placeholder: "Email Address",
-                                                    className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${formErrors.email ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${formErrors.email ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1050,
+                                                    lineNumber: 1051,
                                                     columnNumber: 21
                                                 }, this),
                                                 formErrors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-4",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-4",
                                                     children: formErrors.email
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1064,
+                                                    lineNumber: 1065,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1046,
+                                            lineNumber: 1047,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex justify-between gap-3 mt-10",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex justify-between gap-3 mt-10",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "button",
@@ -1796,32 +1796,32 @@ const TravelHeroSection = ()=>{
                                                         setDisplayBookingSummary(true);
                                                         setDisplayBookingForm(false);
                                                     },
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Back"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1070,
+                                                    lineNumber: 1071,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Continue to Payment"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1080,
+                                                    lineNumber: 1081,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1069,
+                                            lineNumber: 1070,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 1010,
+                                    lineNumber: 1011,
                                     columnNumber: 17
                                 }, this),
                                 displayPaymentForm && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1836,28 +1836,28 @@ const TravelHeroSection = ()=>{
                                             }, 3000);
                                         }
                                     },
-                                    className: "jsx-ba0332bafa827537" + " " + "w-full shrink-0 px-4 animate-fade-in-up space-y-6",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-full shrink-0 px-4 animate-fade-in-up space-y-6",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-xl font-semibold text-[#3D592F] mb-4",
                                             children: "Payment"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1105,
+                                            lineNumber: 1106,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex gap-4",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex gap-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 ",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 ",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Card Number"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1110,
+                                                            lineNumber: 1111,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1867,35 +1867,35 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cardNumber,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "1234 5678 9012 3456",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardNumber ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardNumber ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1111,
+                                                            lineNumber: 1112,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cardNumber && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cardNumber
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1125,
+                                                            lineNumber: 1126,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1109,
+                                                    lineNumber: 1110,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Card Holder"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1131,
+                                                            lineNumber: 1132,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1904,44 +1904,44 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cardHolder,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "Full Name",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardHolder ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cardHolder ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1132,
+                                                            lineNumber: 1133,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cardHolder && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cardHolder
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1145,
+                                                            lineNumber: 1146,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1130,
+                                                    lineNumber: 1131,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1108,
+                                            lineNumber: 1109,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex gap-3",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex gap-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "Expiry (MM/YY)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1153,
+                                                            lineNumber: 1154,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1951,35 +1951,35 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.expiry,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "MM/YY",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.expiry ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.expiry ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1154,
+                                                            lineNumber: 1155,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.expiry && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.expiry
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1168,
+                                                            lineNumber: 1169,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1152,
+                                                    lineNumber: 1153,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 ",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 ",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-[#3D592F]",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-[#3D592F]",
                                                             children: "CVV"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1174,
+                                                            lineNumber: 1175,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1989,102 +1989,102 @@ const TravelHeroSection = ()=>{
                                                             value: cardFormData.cvv,
                                                             onChange: handleCardInputChange,
                                                             placeholder: "123",
-                                                            className: "jsx-ba0332bafa827537" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cvv ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + `mb-1 w-full px-4 py-2 rounded border text-[#3D592F] focus:outline-none focus:ring-2 ${cardErrors.cvv ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-[#5EA4BF]"}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1175,
+                                                            lineNumber: 1176,
                                                             columnNumber: 23
                                                         }, this),
                                                         cardErrors.cvv && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "jsx-ba0332bafa827537" + " " + "text-sm text-red-500 mb-3",
+                                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-sm text-red-500 mb-3",
                                                             children: cardErrors.cvv
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                            lineNumber: 1189,
+                                                            lineNumber: 1190,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1173,
+                                                    lineNumber: 1174,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1151,
+                                            lineNumber: 1152,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "flex justify-between gap-3 mt-6",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "flex justify-between gap-3 mt-6",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>{
                                                         setDisplayBookingForm(true);
                                                         setDisplayPaymentForm(false);
                                                     },
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl  transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gray-200 text-gray-800 rounded-2xl font-medium hover:bg-gray-400 hover:shadow-xl  transition-all duration-300 transform hover:-translate-y-1 cursor-pointer",
                                                     children: "Back"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1196,
+                                                    lineNumber: 1197,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "submit",
                                                     disabled: loading,
-                                                    className: "jsx-ba0332bafa827537" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50",
+                                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-1/2 py-3 bg-gradient-to-r from-[#5EA4BF] to-[#6FA638] text-white rounded-2xl font-semibold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer disabled:cursor-not-allowed disabled:opacity-50",
                                                     children: loading ? "Processing..." : `Pay $${selectedDestination.price}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                                    lineNumber: 1205,
+                                                    lineNumber: 1206,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1195,
+                                            lineNumber: 1196,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 1091,
+                                    lineNumber: 1092,
                                     columnNumber: 17
                                 }, this),
                                 displaySuccessMessage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-ba0332bafa827537" + " " + "w-full shrink-0 px-4 flex flex-col items-center justify-center gap-4 text-center animate-fade-in-up",
+                                    className: "jsx-d2d98d2f69fb3f63" + " " + "w-full shrink-0 px-4 flex flex-col items-center justify-center gap-4 text-center animate-fade-in-up",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-6xl text-green-600 mb-4 animate-bounce",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-6xl text-green-600 mb-4 animate-bounce",
                                             children: "✓"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1220,
+                                            lineNumber: 1221,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-2xl font-bold text-[#3D592F] mb-2",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-2xl font-bold text-[#3D592F] mb-2",
                                             children: "Booking Confirmed!"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1223,
+                                            lineNumber: 1224,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600",
                                             children: "We've sent a confirmation to your email with details about your booking."
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1226,
+                                            lineNumber: 1227,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-ba0332bafa827537" + " " + "text-gray-600",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "text-gray-600",
                                             children: "Enjoy your trip!"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1230,
+                                            lineNumber: 1231,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2106,44 +2106,44 @@ const TravelHeroSection = ()=>{
                                                 });
                                                 setFormErrors({});
                                             },
-                                            className: "jsx-ba0332bafa827537" + " " + "mt-6 px-6 py-2 bg-[#6FA638] text-white rounded-lg",
+                                            className: "jsx-d2d98d2f69fb3f63" + " " + "mt-6 px-6 py-2 bg-[#6FA638] text-white rounded-lg",
                                             children: "Close"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                            lineNumber: 1231,
+                                            lineNumber: 1232,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                                    lineNumber: 1219,
+                                    lineNumber: 1220,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/TravelHeroSection.tsx",
-                            lineNumber: 958,
+                            lineNumber: 959,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/TravelHeroSection.tsx",
-                    lineNumber: 924,
+                    lineNumber: 925,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TravelHeroSection.tsx",
-                lineNumber: 920,
+                lineNumber: 921,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "ba0332bafa827537",
-                children: '@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";.jsx-ba0332bafa827537{font-family:Nunito,sans-serif}@keyframes fade-in-up{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@keyframes slide-up{0%{transform:translateY(100%)}to{transform:translateY(0)}}@keyframes slide-left{0%{transform:translate(100%)}to{transform:translate(0)}}@keyframes slide-right{0%{transform:translate(-100%)}to{transform:translate(0)}}@keyframes scale-in{0%{opacity:0;transform:scale(.8)translate(-50%)}to{opacity:1;transform:scale(1)translate(-50%)}}@keyframes modal-in{0%{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}@keyframes rain{to{transform:translateY(100vh)}}@keyframes wind{0%{transform:translate(0)}to{transform:translate(120vw)}}@keyframes cloud{0%{transform:translate(0)}to{transform:translate(150vw)}}.animate-fade-in-up.jsx-ba0332bafa827537{animation:.8s ease-out forwards fade-in-up}.animate-slide-up.jsx-ba0332bafa827537{animation:.6s ease-out forwards slide-up}.animate-slide-left.jsx-ba0332bafa827537{animation:.6s ease-out forwards slide-left}.animate-slide-right.jsx-ba0332bafa827537{animation:.6s ease-out forwards slide-right}.animate-scale-in.jsx-ba0332bafa827537{animation:.3s ease-out forwards scale-in}.animate-modal-in.jsx-ba0332bafa827537{animation:.3s ease-out forwards modal-in}.animate-rain.jsx-ba0332bafa827537{animation:linear infinite rain}.animate-wind.jsx-ba0332bafa827537{animation:linear infinite wind}.animate-cloud.jsx-ba0332bafa827537{animation:linear infinite cloud}.animation-delay-200.jsx-ba0332bafa827537{animation-delay:.2s}@media (width<=750px){.destination-image.jsx-ba0332bafa827537{height:7rem}.destination-content.jsx-ba0332bafa827537{padding:1rem}.destination-title.jsx-ba0332bafa827537{font-size:1rem}.destination-location.jsx-ba0332bafa827537,.destination-highlight.jsx-ba0332bafa827537,.destination-description.jsx-ba0332bafa827537{font-size:.7rem}.map-container.jsx-ba0332bafa827537{align-items:flex-start;height:28%;padding:1rem 2.5rem}.interactive-map.jsx-ba0332bafa827537,.map-overlay.jsx-ba0332bafa827537{height:100%}.tooltip.jsx-ba0332bafa827537{left:400%;transform:translate(-150%)}}@media (width<=400px){.map-container.jsx-ba0332bafa827537{align-items:flex-start;height:22%;padding:0 2.5rem 1rem}}@media (width<=375px){.map-container.jsx-ba0332bafa827537{display:none}}'
+                id: "d2d98d2f69fb3f63",
+                children: '@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";.jsx-d2d98d2f69fb3f63{font-family:Nunito,sans-serif}@keyframes fade-in-up{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@keyframes slide-up{0%{transform:translateY(100%)}to{transform:translateY(0)}}@keyframes slide-left{0%{transform:translate(100%)}to{transform:translate(0)}}@keyframes slide-right{0%{transform:translate(-100%)}to{transform:translate(0)}}@keyframes scale-in{0%{opacity:0;transform:scale(.8)translate(-50%)}to{opacity:1;transform:scale(1)translate(-50%)}}@keyframes modal-in{0%{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}@keyframes rain{to{transform:translateY(100vh)}}@keyframes wind{0%{transform:translate(0)}to{transform:translate(120vw)}}@keyframes cloud{0%{transform:translate(0)}to{transform:translate(150vw)}}.animate-fade-in-up.jsx-d2d98d2f69fb3f63{animation:.8s ease-out forwards fade-in-up}.animate-slide-up.jsx-d2d98d2f69fb3f63{animation:.6s ease-out forwards slide-up}.animate-slide-left.jsx-d2d98d2f69fb3f63{animation:.6s ease-out forwards slide-left}.animate-slide-right.jsx-d2d98d2f69fb3f63{animation:.6s ease-out forwards slide-right}.animate-scale-in.jsx-d2d98d2f69fb3f63{animation:.3s ease-out forwards scale-in}.animate-modal-in.jsx-d2d98d2f69fb3f63{animation:.3s ease-out forwards modal-in}.animate-rain.jsx-d2d98d2f69fb3f63{animation:linear infinite rain}.animate-wind.jsx-d2d98d2f69fb3f63{animation:linear infinite wind}.animate-cloud.jsx-d2d98d2f69fb3f63{animation:linear infinite cloud}.animation-delay-200.jsx-d2d98d2f69fb3f63{animation-delay:.2s}@media (width<=750px){.destination-image.jsx-d2d98d2f69fb3f63{height:7rem}.destination-content.jsx-d2d98d2f69fb3f63{padding:1rem}.destination-title.jsx-d2d98d2f69fb3f63{font-size:1rem}.destination-location.jsx-d2d98d2f69fb3f63,.destination-highlight.jsx-d2d98d2f69fb3f63,.destination-description.jsx-d2d98d2f69fb3f63{font-size:.7rem}.map-container.jsx-d2d98d2f69fb3f63{align-items:flex-start;height:28%;padding:1rem 2.5rem}.interactive-map.jsx-d2d98d2f69fb3f63,.map-overlay.jsx-d2d98d2f69fb3f63{height:100%}.tooltip.jsx-d2d98d2f69fb3f63{left:400%;transform:translate(-150%)}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/TravelHeroSection.tsx",
-        lineNumber: 325,
+        lineNumber: 324,
         columnNumber: 5
     }, this);
 };

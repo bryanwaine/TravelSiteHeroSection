@@ -98,11 +98,10 @@ const destinations: Destination[] = [
     position: [35.6895, 139.6917],
     direction: "bottom",
     description: "Blend of ancient traditions and futuristic technology",
-    highlights: ["Cherry Blossoms", "Tech Districts", "Traditional Cuisine"],
+    highlights: ["Cherry Blossoms", "Tech Districts", "Local Cuisine"],
     temperature: 22,
   },
 ];
-
 
 const weatherTypes = ["sunny", "cloudy", "rainy", "windy"] as const;
 type WeatherType = (typeof weatherTypes)[number];
@@ -438,25 +437,27 @@ const TravelHeroSection: React.FC = () => {
         </p>
       </header>
       {/* Desktop Map Markers */}
-      <div className="map-container relative w-full h-[40%] lg:h-[45%] rounded-3xl flex justify-center items-center px-8 pb-4 mb-4 z-20 animate-fade-in-up">
-        <div className="interactive-map relative w-full h-full lg:shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04 rounded-3xl bg-white/90 bg-transparent">
-          <div className="w-full h-full !overflow-visible rounded-3xl shadow-md">
-            <TravelMap
-              destinations={destinations}
-              isMobile={isMobile}
-              setSelectedDestination={setSelectedDestination}
-              setMobileBookingVisible={setMobileBookingVisible}
-              setDisplayBookingSummary={setDisplayBookingSummary}
-              setDisplayBookingForm={setDisplayBookingForm}
-              setDisplayPaymentForm={setDisplayPaymentForm}
-              setDisplaySuccessMessage={setDisplaySuccessMessage}
-            />
+      { (
+        <div className="map-container relative w-full h-[30%] lg:h-[45%] rounded-3xl flex justify-center items-center px-8 pb-4 z-20 animate-fade-in-up">
+          <div className="interactive-map relative w-full h-full lg:shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04 rounded-3xl bg-white/90 bg-transparent">
+            <div className="w-full h-full !overflow-visible rounded-3xl shadow-md">
+              <TravelMap
+                destinations={destinations}
+                isMobile={isMobile}
+                setSelectedDestination={setSelectedDestination}
+                setMobileBookingVisible={setMobileBookingVisible}
+                setDisplayBookingSummary={setDisplayBookingSummary}
+                setDisplayBookingForm={setDisplayBookingForm}
+                setDisplayPaymentForm={setDisplayPaymentForm}
+                setDisplaySuccessMessage={setDisplaySuccessMessage}
+              />
+            </div>
           </div>
         </div>
-      </div>
+      )}
       {/* Destination Cards Container */}
       <div
-        className={`absolute bottom-0 left-0 right-0 p-6 md:p-8 ${
+        className={`absolute bottom-0 left-0 h-[40%] right-0 p-6 md:p-8 ${
           isVisible ? "animate-slide-up" : "translate-y-full"
         }`}
       >
@@ -471,12 +472,12 @@ const TravelHeroSection: React.FC = () => {
                 }}
               >
                 {destinations.map((dest) => (
-                  <div key={dest.id} className={`w-full flex-shrink-0 px-4`}>
+                  <div key={dest.id} className={`w-full h-full flex-shrink-0 px-4`}>
                     <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04)] overflow-hidden">
                       <img
                         src={dest.image}
                         alt={dest.name}
-                        className=" destination-image w-full h-40 object-cover"
+                        className=" destination-image w-full h-full object-cover"
                       />
                       <div className="destination-content p-6">
                         <div className="flex items-center justify-between mb-3">
@@ -1425,17 +1426,17 @@ const TravelHeroSection: React.FC = () => {
         }
 
         @media (max-width: 400px) {
-          .map-container {
-            align-items: flex-start;
-            height: 22%;
-            padding: 0 2.5rem 1rem;
-          }
+          // .map-container {
+          //   align-items: flex-start;
+          //   height: 22%;
+          //   padding: 0 2.5rem 1rem;
+          // }
         }
 
         @media (max-width: 375) {
-          .map-container {
-            display: none;
-          }
+          // .map-container {
+          //   display: none;
+          // }
         }
       `}</style>
     </div>
