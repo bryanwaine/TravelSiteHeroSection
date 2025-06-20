@@ -551,7 +551,7 @@ const TravelHeroSection: React.FC = () => {
               <ChevronRight className="w-5 h-5 text-[#3D592F]" />
             </button>
             {/* Dots Indicator */}
-            <div className="flex justify-center gap-2 mt-4">
+            <div className="flex justify-center gap-2 mt-2">
               {destinations.map((_, index) => (
                 <button
                   key={index}
