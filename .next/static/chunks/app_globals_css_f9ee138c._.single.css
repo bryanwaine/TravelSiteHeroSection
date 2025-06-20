@@ -115,7 +115,6 @@
     --radius-3xl: 1.5rem;
     --ease-out: cubic-bezier(0, 0, .2, 1);
     --animate-ping: ping 1s cubic-bezier(0, 0, .2, 1) infinite;
-    --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
     --animate-bounce: bounce 1s infinite;
     --blur-sm: 8px;
     --blur-md: 12px;
@@ -397,20 +396,8 @@
     left: -5px;
   }
 
-  .left-\[-7px\] {
-    left: -7px;
-  }
-
-  .left-\[-10px\] {
-    left: -10px;
-  }
-
   .left-\[-12px\] {
     left: -12px;
-  }
-
-  .left-\[-17px\] {
-    left: -17px;
   }
 
   .\!z-0 {
@@ -667,10 +654,6 @@
 
   .animate-ping {
     animation: var(--animate-ping);
-  }
-
-  .animate-pulse {
-    animation: var(--animate-pulse);
   }
 
   .cursor-pointer {
@@ -1854,12 +1837,6 @@ html, body, svg {
   75%, 100% {
     opacity: 0;
     transform: scale(2);
-  }
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
   }
 }
 
