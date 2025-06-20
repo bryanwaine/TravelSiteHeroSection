@@ -1478,6 +1478,12 @@
   }
 
   @media (width >= 48rem) {
+    .md\:bottom-0 {
+      bottom: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:bottom-10 {
       bottom: calc(var(--spacing) * 10);
     }
