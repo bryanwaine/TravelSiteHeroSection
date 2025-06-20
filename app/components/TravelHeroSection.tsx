@@ -457,7 +457,7 @@ const TravelHeroSection: React.FC = () => {
       )}
       {/* Destination Cards Container */}
       <div
-        className={`absolute bottom-10 left-0 h-[40%] right-0 p-6 md:p-8 ${
+        className={`absolute bottom-0 md:bottom-10 left-0 h-[40%] right-0 p-6 md:flex md:items-end ${
           isVisible ? "animate-slide-up" : "translate-y-full"
         }`}
       >
@@ -568,7 +568,7 @@ const TravelHeroSection: React.FC = () => {
           </div>
         ) : (
           // Desktop Grid View
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-4 gap-6 w-full ">
             {destinations.map((dest, index) => (
               <div
                 key={dest.id}
@@ -622,7 +622,7 @@ const TravelHeroSection: React.FC = () => {
             >
               ×
             </button>
-            <div className="h-80 w-full relative">
+            <div className="h-60 w-full relative">
               <img
                 src={selectedDestination.image}
                 alt={selectedDestination.name}
