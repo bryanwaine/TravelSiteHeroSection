@@ -144,7 +144,7 @@ const TravelMap: React.FC<TravelMapProps> = ({
             mouseout: () => {
               setHoveredDestination(null);
               if (videoRefs.current[dest.id]) {
-                // videoRefs.current[dest.id].pause();
+                videoRefs.current[dest.id].pause();
                 videoRefs.current[dest.id].currentTime = 0;
               }
             },
@@ -158,7 +158,7 @@ const TravelMap: React.FC<TravelMapProps> = ({
               offset={[0, dest.direction === "top" ? -25 : 5]}
               interactive
               opacity={1}
-              className={`${(hoveredDestination === dest.id && !isMobile) ? "block" : "hidden"}!p-0 !bg-transparent !border-0 !shadow-none !z-[99999999]`}
+              className={`!p-0 !bg-transparent !border-0 !shadow-none !z-[99999999]`}
             >
               <div className="w-30 md:w-64 bg-white rounded-2xl shadow-lg overflow-hidden animate-scale-in !z-[99999999]">
                 <video

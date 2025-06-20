@@ -1,0 +1,10 @@
+{
+  "[project]/app/components/TravelMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/app/components/TravelMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_3d744d3c._.js",
+      "static/chunks/app_components_TravelMap_tsx_b7dca112._.js",
+      "static/chunks/app_components_TravelMap_tsx_a8d23dbc._.js"
+    ]
+  }
+}

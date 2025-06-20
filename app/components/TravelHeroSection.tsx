@@ -443,7 +443,7 @@ const TravelHeroSection: React.FC = () => {
           <div className="w-full h-full !overflow-visible rounded-3xl shadow-md">
             <TravelMap
               destinations={destinations}
-              isMobile={false}
+              isMobile={isMobile}
               setSelectedDestination={setSelectedDestination}
               setMobileBookingVisible={setMobileBookingVisible}
               setDisplayBookingSummary={setDisplayBookingSummary}
