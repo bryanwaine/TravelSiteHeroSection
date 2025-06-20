@@ -457,7 +457,7 @@ const TravelHeroSection: React.FC = () => {
       )}
       {/* Destination Cards Container */}
       <div
-        className={`absolute bottom-0 left-0 h-[40%] right-0 p-6 md:p-8 ${
+        className={`absolute bottom-2 left-0 h-[40%] right-0 p-6 md:p-8 ${
           isVisible ? "animate-slide-up" : "translate-y-full"
         }`}
       >
