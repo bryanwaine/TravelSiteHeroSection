@@ -642,6 +642,10 @@
     height: calc(var(--spacing) * 64);
   }
 
+  .h-\[40\%\] {
+    height: 40%;
+  }
+
   .h-\[50\%\] {
     height: 50%;
   }
@@ -1562,6 +1566,18 @@
     .md\:text-xl {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:h-\[45\%\] {
+      height: 45%;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .lg\:h-\[50\%\] {
+      height: 50%;
     }
   }
 

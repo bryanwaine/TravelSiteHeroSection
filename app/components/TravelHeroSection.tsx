@@ -438,7 +438,7 @@ const TravelHeroSection: React.FC = () => {
         </p>
       </header>
       {/* Desktop Map Markers */}
-      <div className="map-container relative w-full h-[50%] rounded-3xl flex justify-center items-center px-8 pb-4 z-20 animate-fade-in-up">
+      <div className="map-container relative w-full h-[40%] lg:h-[45%] rounded-3xl flex justify-center items-center px-8 pb-4 mb-4 z-20 animate-fade-in-up">
         <div className="interactive-map relative w-full h-full lg:shadow-[0_12px_40px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.04 rounded-3xl bg-white/90 bg-transparent">
           <div className="w-full h-full !overflow-visible rounded-3xl shadow-md">
             <TravelMap
@@ -1388,7 +1388,7 @@ const TravelHeroSection: React.FC = () => {
           animation-delay: 200ms;
         }
 
-        @media (max-width: 450px) {
+        @media (max-width: 750px) {
           .destination-image {
             height: 7rem;
           }
